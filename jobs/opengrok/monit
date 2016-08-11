@@ -1,0 +1,5 @@
+check process opengrok
+  with pidfile /var/vcap/sys/run/opengrok/pid
+  start program "/var/vcap/jobs/opengrok/bin/ctl start"
+  stop program "/var/vcap/jobs/opengrok/bin/ctl stop"
+  group vcap
