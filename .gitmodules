@@ -1,0 +1,3 @@
+[submodule "src/OpenGrok"]
+	path = src/OpenGrok
+	url = https://github.com/OpenGrok/OpenGrok
